@@ -1,6 +1,6 @@
 name = input("whos living there?")
 
-if name == "Hare" or name = "Hermonie":
+if name == "Harry" or name == "hermonie" or name == "Kate":
     print ("Gryffindor")
 else:
     print ("UCL")
