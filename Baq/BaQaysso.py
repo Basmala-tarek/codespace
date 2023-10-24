@@ -1,8 +1,9 @@
 name = input("whos living there?")
 
 match name:
-    case "Harry":
+    case "Harry" | "Hermonie" | "Luki":
         print ("Gryffindor")
-    case "Hermonie":
-        print ("Gryfindor")
+    case _:
+        print ("who?")
+
 
