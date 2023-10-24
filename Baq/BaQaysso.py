@@ -1,16 +1,7 @@
-def main():
-    x = int(input("whats x?"))
-    if is_even (x):
-        print ("even")
-    else:
-        print ("odd")
+name = input("whos living there?")
 
-def is_even (n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-
-
-main()
+if name == "Hare" or name = "Hermonie":
+    print ("Gryffindor")
+else:
+    print ("UCL")
 
